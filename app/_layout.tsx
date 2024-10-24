@@ -13,7 +13,7 @@ export default function RootLayout() {
   return (
     <Stack>
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      <Stack.Screen name="prueba"/>
+      <Stack.Screen name="camera" options={{ headerTitle: 'Camera'}}/>
       <Stack.Screen name="+not-found"/>
     </Stack>
   );
