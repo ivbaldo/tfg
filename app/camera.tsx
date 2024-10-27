@@ -26,7 +26,7 @@ export default function CameraScreen(){
   }
   const handleBarcodeScanned = ({type, data} : {type: any, data : any}) => {
     setScanned(true);
-    if(data === 'https://www.nfl.com/') {
+    if(data === 'https://www.ua.es/') {
       handleLocation();
     }else{
       alert(`QR no válido`);
